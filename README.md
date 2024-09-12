@@ -10,10 +10,12 @@ The project uses a pre-trained model for detecting license plates and then anoth
 ### Steps
 0. Go to `ML TASK-2` directory
 1. Create a pyhton virtual environment of your choice
-1. Open terminal and run `pip install requirements.txt`
-2. Just update the `input_dir` variable in `main.py` with the path of the directory which contains your license plate images.
-3. Run the `main.py` file.
-4. See the output of the license plates in the console. When the code runs, it will show you the image as well, for which it has detected text. Close the recently opened image after you have seen its output so that the code proceeds for next image.
+2. Open terminal and run `pip install requirements.txt`
+3. Download weights from this link: https://drive.google.com/file/d/1vXjIoRWY0aIpYfhj3TnPUGdmJoHnWaOc/
+4. Put it inside `model/weights` directory
+5. Update the `input_dir` variable in `main.py` with the path of the directory which contains your license plate images.
+6. Run the `main.py` file.
+7. See the output of the license plates in the console. When the code runs, it will show you the image as well, for which it has detected text. Close the recently opened image after you have seen its output so that the code proceeds for next image.
 
 **NOTE:** The output may or may not contain many unnecesary text which may or may not be the part of license plate. Kindly ignore it.
 
